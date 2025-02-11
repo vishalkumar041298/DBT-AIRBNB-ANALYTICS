@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://89e6162e.us1a.app.preset.io/superset/dashboard/8/?edit=true&native_filters_key=DLw3AMub0l8ZffOB5lvgpwwklzJBjXsER9_tjjiflmW70Ib4mMRYJkLUoYNZIQRz
+    description: Executive Dashboard about Airbnb listings and hosts
+      
+
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_full_moon_reviews')
+
+    owner:
+      name: Vishal
+      email: vishallindan170@gmail.com

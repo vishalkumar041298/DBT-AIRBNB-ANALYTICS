@@ -1,0 +1,13 @@
+airbnb_dbt/package-lock.yml
+airbnb_dbt/target/
+airbnb_dbt/dbt_packages/
+
+archive
+
+logs/
+dbtvenv/
+
+**/__pycache__/
+*.pyc
+tmp*/
+.vscode/
